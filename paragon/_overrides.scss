@@ -1,2 +1,45 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+.pgn__header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #9b9595;
+
+    .navbar-nav .nav-link {
+        color: #000000;
+        font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        font-weight: 500;
+
+        &:hover,
+        &:focus,
+        &.active {
+            color: #000000;
+            border-bottom: 2px solid #3494c8;
+        }
+    }
+}
+
+.pgn__footer {
+    background-color: #ffffff;
+    border-top: 1px solid #9b9595;
+    color: #374151;
+
+    a {
+        color: #374151;
+
+        &:hover {
+            color: #000000;
+        }
+    }
+}
+
+.btn-primary {
+    background-color: #3494c8;
+    border-color: #3494c8;
+
+    &:hover,
+    &:focus {
+        background-color: darken(#3494c8, 10%);
+        border-color: darken(#3494c8, 10%);
+    }
+}
