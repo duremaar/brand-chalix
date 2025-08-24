@@ -15,3 +15,14 @@ $footer-color: $gray-600;
 
 $font-family-base: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
 $headings-font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+
+// Paragon/Bootstrap compatibility variables used by some components
+// Provide sensible defaults so component packages (header/footer) can compile.
+$component-active-bg: $primary !default;
+$component-active-color: $white !default;
+$component-active-border-color: $primary !default;
+$border-radius: 0.25rem !default;
+$border-color: #dee2e6 !default;
+$text-muted: #6c757d !default;
+$body-bg: $white !default;
+$body-color: $black !default;
