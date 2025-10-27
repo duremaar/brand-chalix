@@ -7,10 +7,10 @@ metadata:
   name: 'brand-chalix'
   description: "The frontend component includes the default branding assets and styles used in Open edX applications."
   links:
-    - url: "https://github.com/Alimento-Team/brand-chalix"
+    - url: "https://github.com/duremaar/brand-chalix"
       title: "Chalix Brand Package Interface"
       icon: "Web"
-    - url: "https://github.com/Alimento-Team/brand-chalix/blob/master/README.md"
+    - url: "https://github.com/duremaar/brand-chalix/blob/master/README.md"
       title: "README"
       icon: "Article"
   annotations:
