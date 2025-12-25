@@ -108,11 +108,11 @@ h2.course-list-title {
     text-transform: uppercase
 }
 
-a.btn-brand:hover span.btn-brand:hover {
+a.btn-brand:hover,span.btn-brand:hover {
     background: #268183
 }
 
-a.btn-brand span.btn-brand {
+a.btn-brand,span.btn-brand {
     appearance: button;
     background-attachment: scroll;
     background-clip: border-box;
