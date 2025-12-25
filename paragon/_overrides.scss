@@ -112,6 +112,10 @@ a.btn-brand:hover,button.btn-brand:hover {
     background: #268183
 }
 
+button.btn-brand:disabled {
+    all: revert;
+}
+
 a.btn-brand,button.btn-brand {
     appearance: button;
     background-attachment: scroll;
@@ -184,6 +188,6 @@ a.btn-brand,button.btn-brand {
     //width: 90px
 }
 
-div.looking-for-challenge-widget {
+#looking-for-challenge-widget {
         visibility: collapse;  
 }
