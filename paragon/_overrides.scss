@@ -74,7 +74,10 @@ p.footer-text:nth-of-type(1) {
 p.footer-text:nth-of-type(1):after {
   content: 'new footer text';
   visibility: visible;
-  text-align:left;
+  display: block;
+  position: absolute;
+  padding: 5px;
+  top: 2px;
 }
 
 h2.course-list-title {
@@ -107,28 +110,73 @@ h2.course-list-title {
 
 
 a.btn-brand {
-    background-color: rgba(0, 0, 0, 0);
+    appearance: button;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(59, 175, 178);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-style: none;
+    border-top-width: 0px;
     box-sizing: border-box;
-    color: rgb(51, 174, 178);
-    display: block;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
     font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
-    font-size: 16px;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-emoji: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
     font-weight: 700;
-    line-height: 19px;
-    margin-bottom: 0px;
+    height: 37px;
+    line-height: 20px;
+    margin-bottom: 15px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    outline-color: rgb(51, 174, 178);
+    outline-color: rgb(255, 255, 255);
     outline-style: none;
     outline-width: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    text-decoration-color: rgb(51, 174, 178);
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: auto;
-    text-transform: uppercase
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    text-transform: none;
+    width: 90px
 }
