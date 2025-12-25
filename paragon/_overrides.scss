@@ -68,16 +68,16 @@ body {
 }
 
 p.footer-text:nth-of-type(1) {
-    visibility: hidden;
+    visibility: collapse;
+    text-align: left;
 }
 
 p.footer-text:nth-of-type(1):after {
   content: 'new footer text';
   visibility: visible;
   display: block;
-  position: absolute;
-  padding: 5px;
-  top: 2px;
+  //padding: 5px;
+  //top: 2px;
 }
 
 h2.course-list-title {
@@ -108,8 +108,11 @@ h2.course-list-title {
     text-transform: uppercase
 }
 
+a.btn-brand:hover,span.btn-brand:hover {
+    background: #268183;
+}
 
-a.btn-brand {
+a.btn-brand,span.btn-brand {
     appearance: button;
     background-attachment: scroll;
     background-clip: border-box;
@@ -178,5 +181,5 @@ a.btn-brand {
     padding-right: 20px;
     padding-top: 8px;
     text-transform: none;
-    width: 90px
+    //width: 90px
 }
