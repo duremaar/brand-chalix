@@ -72,8 +72,8 @@ p.footer-text:nth-of-type(1) {
     text-align: left;
 }
 
-p.footer-text:nth-of-type(1):after {
-  content: 'new footer text';
+p.footer-text:nth-of-type(1):before {
+  content: 'MIA new footer text';
   visibility: visible;
   display: block;
   //padding: 5px;
@@ -108,14 +108,27 @@ h2.course-list-title {
     text-transform: uppercase
 }
 
+a.btn-brand:focus,button.btn-brand:focus {
+    border-top-color: #268183;
+    border-left-color: #268183;
+    border-bottom-color: #268183;
+    border-right-color: #268183;
+}
+
+a.btn-brand:active,button.btn-brand:active {
+    background: #268183
+}
+
 a.btn-brand:hover,button.btn-brand:hover {
     background: #268183
 }
 
 button.btn-brand:disabled {
-    background-color: rgb(59, 175, 178);
+    //background-color: rgb(59, 175, 178);
     background: rgb(59, 175, 178);
 }
+
+
 
 a.btn-brand,button.btn-brand {
     appearance: button;
@@ -197,10 +210,17 @@ a.btn-brand,button.btn-brand {
     height: 37px;
 }
 
-.btn-outline-primary *{
+.btn-outline-primary {
     border-color:rgb(59, 175, 178);
     color:rgb(59, 175, 178);
     height: 37px;
+    font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .btn-outline-primary:hover {
