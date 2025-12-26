@@ -72,12 +72,15 @@ p.footer-text:nth-of-type(1) {
     text-align: left;
 }
 
-p.footer-text:nth-of-type(1):before {
+p.footer-text:nth-of-type(1)::before {
   content: 'MIA new footer text';
   visibility: visible;
-  display: block;
-  //padding: 5px;
-  //top: 2px;
+  //display: block;
+  font-family: 'PT Sans', "Helvetica", "Arial", "Calibri", _sans;
+  -webkit-font-smoothing: antialiased;
+  font-size: 11px;
+  line-height: 1.42857143;
+  color: #333;
 }
 
 h2.course-list-title {
@@ -108,7 +111,8 @@ h2.course-list-title {
     text-transform: uppercase
 }
 
-a.btn-brand:focus,button.btn-brand:focus {
+a.btn-brand:focus::before,button.btn-brand:focus::before {
+    border: 2px solid #268183;;
     border-top-color: #268183;
     border-left-color: #268183;
     border-bottom-color: #268183;
