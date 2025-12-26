@@ -73,7 +73,7 @@ p.footer-text:nth-of-type(1) {
 }
 
 p.footer-text:nth-of-type(1)::before {
-  content: 'MIA new footer text';
+  content: '© МИА. Все права защищены. 2025';
   visibility: visible;
   //display: block;
   font-family: 'PT Sans', "Helvetica", "Arial", "Calibri", _sans;
@@ -120,7 +120,9 @@ a.btn-brand:focus::before,button.btn-brand:focus::before {
 }
 
 a.btn-brand:active,button.btn-brand:active {
-    background: #268183
+    background: #268183;
+    background-color: #268183;
+    border-color: #268183;
 }
 
 a.btn-brand:hover,button.btn-brand:hover {
@@ -230,4 +232,21 @@ a.btn-brand,button.btn-brand {
 .btn-outline-primary:hover {
     border-color:#268183;
     color:#268183;
+}
+
+a.nav-link active {
+    --pgn-color-primary-500: rgb(59, 175, 178);
+    --pgn-color-primary-base: rgb(59, 175, 178);
+}
+
+input.form-field1 {
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'PT Sans', "Helvetica", "Arial", "Calibri", _sans;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    font-size: 14px;
 }
