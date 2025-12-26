@@ -245,11 +245,16 @@ a.btn-brand,button.btn-brand {
     color:rgb(59, 175, 178);
 }
 
-a.nav-link {
+a.nav-link.active {
     background: rgb(59, 175, 178);
     background-color: rgb(59, 175, 178);
     --pgn-color-primary-500: rgb(59, 175, 178);
     --pgn-color-primary-base: rgb(59, 175, 178);
+}
+
+a.nav-link:hover {
+    background: #268183;
+
 }
 
 input.form-field1 {
@@ -275,7 +280,7 @@ a.dropdown-item {
 }
 
 a.dropdown-item:hover {
-    background: #268183;
+    background: rgb(59, 175, 178);
 }
 
 label.pgn__form-control-floating-label-text {
