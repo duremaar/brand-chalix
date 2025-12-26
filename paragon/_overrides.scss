@@ -113,7 +113,8 @@ a.btn-brand:hover,button.btn-brand:hover {
 }
 
 button.btn-brand:disabled {
-    all: revert;
+    background-color: revert;
+    background: revert;
 }
 
 a.btn-brand,button.btn-brand {
@@ -190,4 +191,10 @@ a.btn-brand,button.btn-brand {
 
 #looking-for-challenge-widget {
         visibility: collapse;  
+}
+
+.btn-outline-primary {
+    border-color:rgb(59, 175, 178);
+    color:rgb(59, 175, 178);
+    height: 37px;
 }
