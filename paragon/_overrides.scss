@@ -263,8 +263,8 @@ a.btn-brand,button.btn-brand {
 .nav-link.active {
     background: rgb(59, 175, 178);
     background-color: rgb(59, 175, 178);
-    --pgn-color-primary-500: rgb(59, 175, 178);
-    --pgn-color-primary-base: rgb(59, 175, 178);
+    //--pgn-color-primary-500: rgb(59, 175, 178);
+    //--pgn-color-primary-base: rgb(59, 175, 178);
 }
 
 .nav-link:hover {
@@ -304,12 +304,17 @@ label.pgn__form-control-floating-label-text {
     color: #555;
 }
 
-#masquerade-form-label {
-    font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;    
-    visibility: collapse; 
+
+.pgn__icon {
+    visibility: visible;   
 }
 
-#masquerade-form-label::after {
+#masquerade-form-label {
+    font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;    
+    visibility: hidden; 
+}
+
+#masquerade-form-label::before {
     font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;    
     content: 'Просмотр от имени пользователя:';
     visibility: visible;   
