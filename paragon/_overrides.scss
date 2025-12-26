@@ -235,6 +235,10 @@ a.btn-brand,button.btn-brand {
     font-weight: 700;
 }
 
+.btn-outline-primary:focus {
+    border: 2px solid #268183;
+}
+
 .btn-outline-primary:hover {
     border-color:#268183;
     color:#268183;
@@ -298,5 +302,6 @@ label.pgn__form-control-floating-label-text {
 #masquerade-form-label::after {
     font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;    
     content: 'Просмотр от имени пользователя:';
+    visibility: visible;
    
 }
