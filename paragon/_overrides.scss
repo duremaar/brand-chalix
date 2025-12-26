@@ -234,6 +234,11 @@ a.btn-brand,button.btn-brand {
     color:#268183;
 }
 
+.btn-outline-primary:disabled {
+    border-color:rgb(59, 175, 178);
+    color:rgb(59, 175, 178);
+}
+
 a.nav-link active {
     --pgn-color-primary-500: rgb(59, 175, 178);
     --pgn-color-primary-base: rgb(59, 175, 178);
