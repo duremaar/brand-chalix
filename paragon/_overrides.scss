@@ -125,7 +125,7 @@ a.btn-brand:focus::before,button.btn-brand:focus::before {
     border-color: #268183;
 }
 
-.btn-brand:not(:disabled, .disabled).active {
+.btn-brand:not(:disabled, .disabled):active {
     background: #268183;
     background-color: #268183;
     border-color: #268183;
@@ -246,6 +246,8 @@ a.btn-brand,button.btn-brand {
 }
 
 a.nav-link {
+    background: rgb(59, 175, 178);
+    background-color: rgb(59, 175, 178);
     --pgn-color-primary-500: rgb(59, 175, 178);
     --pgn-color-primary-base: rgb(59, 175, 178);
 }
@@ -260,4 +262,18 @@ input.form-field1 {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     font-size: 14px;
+}
+
+a.dropdown-item {
+    font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;    
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a.dropdown-item:hover {
+    background: #268183;
 }
