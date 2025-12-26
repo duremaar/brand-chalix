@@ -235,6 +235,17 @@ a.btn-brand,button.btn-brand {
     font-weight: 700;
 }
 
+
+.btn-outline-primary:not(:disabled, .disabled):active {
+    border-color:#268183;
+    color:#268183;
+}
+
+.btn-outline-primary:active { //probably useless
+    border-color:#268183;
+    color:#268183;
+}
+
 .btn-outline-primary:focus {
     border: 2px solid #268183;
 }
