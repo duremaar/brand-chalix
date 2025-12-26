@@ -113,8 +113,8 @@ a.btn-brand:hover,button.btn-brand:hover {
 }
 
 button.btn-brand:disabled {
-    background-color: revert;
-    background: revert;
+    background-color: rgb(59, 175, 178);
+    background: rgb(59, 175, 178);
 }
 
 a.btn-brand,button.btn-brand {
@@ -193,8 +193,17 @@ a.btn-brand,button.btn-brand {
         visibility: collapse;  
 }
 
-.btn-outline-primary {
+#form-field1 {
+    height: 37px;
+}
+
+.btn-outline-primary *{
     border-color:rgb(59, 175, 178);
     color:rgb(59, 175, 178);
     height: 37px;
+}
+
+.btn-outline-primary:hover {
+    border-color:#268183;
+    color:#268183;
 }
