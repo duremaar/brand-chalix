@@ -49,8 +49,7 @@ body {
     //next lines copied from medlib.ru
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    //color: rgb(51, 51, 51);
-    color: #beefdead;
+    color: rgb(51, 51, 51);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -296,7 +295,7 @@ a.dropdown-item {
 }
 
 a.dropdown-item:hover {
-    background: #3db0b4;
+    background: rgb(59, 175, 178);
 }
 
 label.pgn__form-control-floating-label-text {
