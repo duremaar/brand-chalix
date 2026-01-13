@@ -142,7 +142,7 @@ button.btn-brand:disabled {
 
 
 
-a.btn-brand,button.btn-brand {
+a.btn-brand,button.btn-brand,button.search-button {
     appearance: button;
     background-attachment: scroll;
     background-clip: border-box;
@@ -318,4 +318,8 @@ label.pgn__form-control-floating-label-text {
     font-family: "PT Sans", "Helvetica", "Arial", "Calibri", _sans;    
     content: 'Просмотр от имени пользователя:';
     visibility: visible;   
+}
+
+button.discovery-submit,a.sign-in-btn {
+    background: #3db0b4;    
 }
